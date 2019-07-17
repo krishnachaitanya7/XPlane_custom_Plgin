@@ -1,10 +1,8 @@
-#include "XPLMDisplay.h"
-#include "XPLMGraphics.h"
+#include <XPlane/XPLM/XPLMDisplay.h>
+#include <XPlane/XPLM/XPLMGraphics.h>
+#include <XPlane/XPLM/XPLMDefs.h>
 #include <string.h>
 #include <GL/gl.h>
-#ifndef XPLM300
-    #error This is made to be compiled against the XPLM300 SDK
-#endif
 
 // An opaque handle to the window we will create
 static XPLMWindowID	g_window;
@@ -93,5 +91,5 @@ void	draw_hello_world(XPLMWindowID in_window_id, void * in_refcon)
 
     float col_white[] = {1.0, 1.0, 1.0}; // red, green, blue
 
-    XPLMDrawString(col_white, l + 10, t - 20, "Hello world!", NULL, xplmFont_Proportional);
+    XPLMDrawString(col_white, l + 10, t - 20, "Hello XPlane", NULL, xplmFont_Proportional);
 }
