@@ -61,8 +61,7 @@ PLUGIN_API int XPluginStart(
     return g_window != NULL;
 }
 
-PLUGIN_API void	XPluginStop(void)
-{
+PLUGIN_API void	XPluginStop(void){
     // Since we created the window, we'll be good citizens and clean it up
     XPLMDestroyWindow(g_window);
     g_window = NULL;
