@@ -90,5 +90,5 @@ void	draw_hello_world(XPLMWindowID in_window_id, void * in_refcon)
 
     float col_white[] = {1.0, 1.0, 1.0}; // red, green, blue
 
-    XPLMDrawString(col_white, l + 10, t - 20, "Hello XPlane", NULL, xplmFont_Proportional);
+    XPLMDrawString(col_white, l + 10, t - 20, "Hello QT", NULL, xplmFont_Proportional);
 }
