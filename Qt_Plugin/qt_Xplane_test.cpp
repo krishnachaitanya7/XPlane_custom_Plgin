@@ -2,6 +2,7 @@
 #include <XPlane/XPLM/XPLMGraphics.h>
 #include <XPlane/XPLM/XPLMDefs.h>
 #include <XPlane/XPLM/XPLMUtilities.h>
+#include <XPlane/XPLM/XPLMDataAccess.h>
 #include <string.h>
 #include <GL/gl.h>
 #include <qapplication.h>
@@ -69,6 +70,7 @@ int MyKeySniffer(
     gFlags = inFlags;
     gChar = inChar;
     if ((int)gChar == 66 && (gFlags & xplm_ShiftFlag) && (gFlags & xplm_UpFlag)){
+        XPLMSetDatai(XPLMFindDataRef("sim/time/sim_speed"), 0);
         std::cout << "Q is pressed" << std::endl;
         int argc {1};
         char test_argv {'d'};
