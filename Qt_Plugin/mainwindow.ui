@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>342</width>
+    <width>341</width>
     <height>353</height>
    </rect>
   </property>
@@ -14,142 +14,12 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QRadioButton" name="radioButton_23">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>70</y>
-      <width>71</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Maybe</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_34">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>120</y>
-      <width>112</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Not Specified</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>150</y>
-      <width>411</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Were you provided with snacks while flying?</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_32">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>120</y>
-      <width>51</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>No</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_31">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>120</y>
-      <width>51</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Yes</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_12">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>20</y>
-      <width>51</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>No</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>200</y>
-      <width>411</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Was the XPlane FPS good or was it lagging?</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_43">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>170</y>
-      <width>71</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Maybe</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_42">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>170</y>
-      <width>51</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>No</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_51">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>220</y>
-      <width>51</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Yes</string>
-    </property>
-   </widget>
    <widget class="QDialogButtonBox" name="buttonBox">
     <property name="geometry">
      <rect>
-      <x>-30</x>
-      <y>260</y>
-      <width>341</width>
+      <x>170</x>
+      <y>170</y>
+      <width>171</width>
       <height>32</height>
      </rect>
     </property>
@@ -160,200 +30,135 @@
      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton_53">
+   <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>220</y>
-      <width>71</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Maybe</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_21">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>70</y>
-      <width>51</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Yes</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>50</y>
-      <width>351</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Did you like plugin?</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_11">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>20</y>
-      <width>51</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Yes</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_41">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>170</y>
-      <width>51</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Yes</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_22">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>70</y>
-      <width>51</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>No</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_44">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>170</y>
-      <width>112</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Not Specified</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>100</y>
-      <width>351</width>
-      <height>17</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Did you like your XPlane performance today? </string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_24">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>70</y>
-      <width>112</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Not Specified</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_14">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>20</y>
-      <width>112</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Not Specified</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_33">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>120</y>
-      <width>71</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Maybe</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_52">
-    <property name="geometry">
-     <rect>
-      <x>70</x>
-      <y>220</y>
-      <width>51</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>No</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_13">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>20</y>
-      <width>71</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Maybe</string>
-    </property>
-   </widget>
-   <widget class="QRadioButton" name="radioButton_54">
-    <property name="geometry">
-     <rect>
-      <x>210</x>
-      <y>220</y>
-      <width>112</width>
-      <height>23</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Not Specified</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
+      <x>0</x>
       <y>0</y>
-      <width>351</width>
-      <height>17</height>
+      <width>341</width>
+      <height>80</height>
      </rect>
     </property>
-    <property name="text">
-     <string>Did you like your XPlane performance today? </string>
+    <property name="title">
+     <string>Did you enjoy XPlane experience?</string>
     </property>
+    <widget class="QRadioButton" name="radioButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>51</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>51</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>30</y>
+       <width>71</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Maybe</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_4">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>30</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>God Knows</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>341</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Were you provided with snacks while simulation?</string>
+    </property>
+    <widget class="QRadioButton" name="radioButton_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>51</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Yes</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_6">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>30</y>
+       <width>51</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>No</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_7">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>30</y>
+       <width>71</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Maybe</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_8">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>30</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>God Knows</string>
+     </property>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
@@ -361,7 +166,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>342</width>
+     <width>341</width>
      <height>22</height>
     </rect>
    </property>
