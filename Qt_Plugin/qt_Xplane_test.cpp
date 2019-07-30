@@ -5,8 +5,8 @@
 #include <XPlane/XPLM/XPLMDataAccess.h>
 #include <string.h>
 #include <GL/gl.h>
-#include <qapplication.h>
-#include <qpushbutton.h>
+#include "mainwindow.h"
+#include <QApplication>
 #include <iostream>
 // An opaque handle to the window we will create
 /* We will store the information we got from our last key press globally
@@ -73,17 +73,13 @@ int MyKeySniffer(
         XPLMSetDatai(XPLMFindDataRef("sim/time/sim_speed"), 0);
         std::cout << "Q is pressed" << std::endl;
         int argc {1};
-        char test_argv {'d'};
+        char test_argv {'Q'};
         char *y = &test_argv;
         char **argv = &y;
         QApplication a(argc, argv);
-
-        QPushButton hello( "Hello world!", 0 );
-        hello.resize( 100, 30 );
-
-        hello.show();
-        int test = a.exec();
-        std::cout << "a exec value: " << test << std::endl;
+        MainWindow w;
+        w.show();
+        a.exec();
     }
     return 1; // Should be 1, else other keys won't work
 }
