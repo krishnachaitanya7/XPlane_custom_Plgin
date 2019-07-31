@@ -71,7 +71,6 @@ int MyKeySniffer(
     gChar = inChar;
     if ((int)gChar == 66 && (gFlags & xplm_ShiftFlag) && (gFlags & xplm_UpFlag)){
         XPLMSetDatai(XPLMFindDataRef("sim/time/sim_speed"), 0);
-        std::cout << "Q is pressed" << std::endl;
         int argc {1};
         char test_argv {'Q'};
         char *y = &test_argv;
