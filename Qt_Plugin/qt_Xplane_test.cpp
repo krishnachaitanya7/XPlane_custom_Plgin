@@ -71,6 +71,8 @@ int MyKeySniffer(
     gChar = inChar;
     if ((int)gChar == 66 && (gFlags & xplm_ShiftFlag) && (gFlags & xplm_UpFlag)){
         XPLMSetDatai(XPLMFindDataRef("sim/time/sim_speed"), 0);
+        XPLMSetDataf(XPLMFindDataRef("sim/weather/rain_percent"), 1.0);
+        XPLMSetDataf(XPLMFindDataRef("sim/weather/thunderstorm_percent"), 1.0);
         int argc {1};
         char test_argv {'Q'};
         char *y = &test_argv;
